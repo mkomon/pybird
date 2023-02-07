@@ -1,17 +1,15 @@
 Unreleased:
   added:
+  - BIRD 2 compatibility
   - Python 3.7, 3.8, 3.9, 3.10 support (#21)
   changed: []
   deprecated: []
-  fixed: []
+  fixed:
+  - All tests are fixed and run again (on MacOS and Ubuntu Linux)
+  - Remote connections over SSH
   removed:
   - Support for Python versions older than 3.7 (#21)
   security: []
-1.1.2:
-  added:
-  - bird2 compatibility
-  fixed:
-  - all tests are fixed and run again (on MacOS and Debian 11)
 1.1.1:
   added:
   - better debug logging for actual output
